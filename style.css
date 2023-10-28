@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,400&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.container{
+    background-color: #fff;
+    padding: 4%;
+    border-radius: 5px;
+}
+
+h1{
+    margin-bottom: 20px ;
+}
+
+.inputform{
+    margin: 20px 0px;
+
+}
+
+input{
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    padding: 5px 30px;
+    background: linear-gradient(to right,rgb(232, 74, 92),rgb(194, 98, 122));
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+
+.btn button:hover{
+    background: linear-gradient(to right,rgb(242, 108, 123),rgb(227, 125, 151));
+    color: rgb(31, 49, 64);
+     transition: 0.5s;
+}
+
+.login{
+    margin-top: 15px;
+}
